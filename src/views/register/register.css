@@ -1,0 +1,59 @@
+#register{
+    width: 100%;
+    height: 100%;
+    background: #f4f4f4;
+}
+.register{
+    width: 100%;
+    height: .98rem;
+    text-align: center;
+    line-height: .98rem;
+    background: #fafafb;
+    font-size: .34rem;
+ 
+}
+.loginSection p{
+    width: 100%;
+    height: 1.2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 .3rem;
+    background: #fff;
+}
+.loginSection p span{
+    font-size: .52rem;
+    color: #333;
+}
+.loginSection p input{
+    width: 6rem;
+    height: 1.15rem;
+    margin-top: .035rem;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    margin-left: .3rem;
+    font-size: .32rem;
+    outline: none;
+}
+.loginSection p b{
+    position: absolute;
+    left: 50%;
+    margin-left: -2.8rem;
+    width: 5.57rem;
+    height: 1.13rem;
+    display: block;
+    color: #fff;
+    background: #fc4141;
+    border-radius: 50px;
+    font-size: .36rem;
+    line-height: 1.13rem;
+    text-align: center;
+}
+.loginSection p:nth-child(3){
+    margin-top: 1rem;
+    background: #f4f4f4;
+}
+.loginSection p:nth-child(1){
+    margin-top: .2rem;
+   
+}

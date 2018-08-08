@@ -1,0 +1,69 @@
+.setting{
+    width: 100%;
+    height: 100%;
+    background: #eeee;
+}
+.sethead{
+    width: 100%;
+    height: .98rem;
+    background: #fafafb;
+}
+.sethead ul{
+    width: 100%;
+    height: .98rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .3rem;
+}
+.sethead ul li{
+    width: 33%;
+    height: .98rem;
+    line-height: .98rem;
+    font-size: .36rem;
+}
+.sethead ul li:nth-child(2){
+    text-align: center;
+}
+.sethead ul li:nth-child(1) span{
+    font-size: .36rem;
+}
+.mainset{
+    margin: .2rem 0;
+}
+.mainset ul{
+    width: 100%;
+    height: 1.48rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .3rem;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: .26rem;
+}
+.mainset ul li:nth-child(2){
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.mainset ul li img{
+    width: 1.24rem;
+    height: 1.24rem
+}
+.mainset ul li i{
+    font-size: .3rem;
+}
+.setbtn{
+    width: 5.53rem;
+    height: 1.08rem;
+    text-align: center;
+    line-height: 1.08rem;
+    margin-top: 1.7rem;
+    margin-left: .45rem;
+    background: #fc4141;
+    color: #fff;
+    font-size: .32rem;
+    border-radius: .5rem;
+}

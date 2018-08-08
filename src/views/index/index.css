@@ -1,0 +1,68 @@
+.active{
+    color: #fc4141 !important;
+}
+*{
+    box-sizing: border-box;
+}
+.head .indexHead{
+    width: 100%;
+    height: .98rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .3rem;
+}
+.head .indexHead li:nth-child(1){
+    width: 70%;
+    height: .6rem;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    padding: 0 .18rem;
+    border-radius: 5px;
+    color: #999999;
+}
+.head .indexHead li:nth-child(1) span{
+    font-size: .26rem
+}
+.head input{
+    width: 80%;
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: .18rem;
+    font-size: .26rem;
+}
+.head .indexHead li:nth-child(2){
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fc4141
+} 
+.head .indexHead li:nth-child(2) .iconfont{
+    font-size: .56rem !important;
+}
+.head .indexHead li:nth-child(2) span{
+    font-size: .2rem
+}
+.head .minHead{
+    width: 100%;
+    height: .98rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .3rem;
+}
+.head .minHead li{
+    width: 33%;
+    height: .98rem;
+    line-height: .98rem;
+    font-size: .36rem;
+}
+.head .minHead li:nth-child(2){
+    text-align: center;
+}
+.head .minHead li:nth-child(1) span{
+    font-size: .36rem;
+}
